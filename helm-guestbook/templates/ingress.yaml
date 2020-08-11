@@ -6,9 +6,10 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: foo.localhost
+  - host: localhost
     http:
       paths:
       - backend:
           serviceName: guestbook-helm-guestbook
           servicePort: 8081
+        path: /foo
