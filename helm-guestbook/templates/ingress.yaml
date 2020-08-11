@@ -11,4 +11,4 @@ spec:
       paths:
       - backend:
           serviceName: guestbook-helm-guestbook
-          servicePort: 80
+          servicePort: 8081
